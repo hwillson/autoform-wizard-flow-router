@@ -7,12 +7,12 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0');
-  
+
   api.use([
     'forwarder:autoform-wizard@0.7.0',
-    'meteorhacks:flow-router@1.0.0'
+    'kadira:flow-router'
   ], 'client');
-  
+
   api.addFiles([
     'client.js'
   ], 'client');
